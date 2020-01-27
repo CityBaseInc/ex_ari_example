@@ -22,7 +22,7 @@ defmodule ExARIExample.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_ari, "~> 0.1", organization: "citybase"},
+      {:ex_ari, "~> 0.1"},
       {:plug, "~> 1.8"},
       {:plug_cowboy, "~> 2.1"}
     ]
