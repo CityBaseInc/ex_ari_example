@@ -1,0 +1,5 @@
+FROM quay.io/citybaseinc/asterisk:588840d9969cd34837a0c4cbbdd8ac7126fb0101
+
+COPY asterisk_config /etc/asterisk
+
+CMD asterisk -fvvv
